@@ -19,6 +19,15 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@latest/lxgwwenkaigb-regular/result.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@latest/lxgwwenkaigb-medium/result.css">
+
+  
+    
+<link rel="stylesheet" href="/css/waline.css">
+
+  
+  
+  
+  
   
 <link rel="stylesheet" href="/css/style.css">
 
@@ -65,11 +74,13 @@
 </header>
 
     <main class="main-content">
-      <article class="post">
+      
+<article class="post">
   <header class="post-header">
     <h1 class="post-title">雷雨</h1>
     <div class="post-meta">
       <time datetime="2025-08-27T16:00:00.000Z">2025-08-28</time>
+      
       
     </div>
   </header>
@@ -96,6 +107,21 @@
     
   </div>
 
+  
+    <div id="waline"></div>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://waline.etchone.ink',
+    dark: 'html[data-theme="dark"]'
+  });
+</script>
+  
+
+  
+
   <footer class="post-footer">
     
     <nav class="post-nav">
@@ -107,6 +133,8 @@
       
     </nav>
   </footer>
+
+  
 </article>
 
     </main>
@@ -115,11 +143,13 @@
     
       <p>Hello, World!</p>
     
+    
     <p>Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &middot; Theme <a href="https://github.com/finch-xu/hexo-theme-warmpaper" target="_blank" rel="noopener">Warmpaper</a></p>
   </div>
 </footer>
 
   </div>
+  
   
 <script src="/js/main.js"></script>
 
